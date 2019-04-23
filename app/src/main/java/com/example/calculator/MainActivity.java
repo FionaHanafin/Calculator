@@ -8,7 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 
-public class CalcActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
     EditText edit;
     String s="";
 
@@ -16,7 +16,7 @@ public class CalcActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
+
         edit = findViewById(R.id.editText1);
     }
 
