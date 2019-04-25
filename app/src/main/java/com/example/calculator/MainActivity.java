@@ -10,7 +10,8 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
     EditText edit;
-    String s="";
+    String x="";
+    String s =x;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
